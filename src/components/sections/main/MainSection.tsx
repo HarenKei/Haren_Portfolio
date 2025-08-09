@@ -27,7 +27,7 @@ const MainSection: React.FC = () => {
   }, []);
 
   return (
-    <div className="about-section">
+    <div id="main" className="main-section">
       <h1>안녕하세요</h1>
       <h1>신입 프론트엔드 개발자</h1>
       <h1 className="name-container">

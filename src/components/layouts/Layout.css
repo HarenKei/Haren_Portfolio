@@ -1,18 +1,18 @@
 .layout {
+  position: relative;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  scroll-snap-type: y mandatory;
 }
 
 .main {
   flex: 1;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   width: 100%;
   box-sizing: border-box;
 }
-
-
 
 /* 반응형 디자인 */
 @media (max-width: 768px) {
