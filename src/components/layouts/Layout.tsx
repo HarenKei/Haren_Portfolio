@@ -2,6 +2,7 @@ import React from "react";
 import "./Layout.css";
 
 import Header from "./header/Header";
+import Footer from "./footer/Footer";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -13,10 +14,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <Header />
 
       <main className="main">{children}</main>
-
-      <footer className="footer">
-        <p>&copy; 2024 Haren Portfolio. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };
