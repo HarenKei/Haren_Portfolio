@@ -1,12 +1,11 @@
 import Layout from "./components/layouts/Layout";
 import "./App.css";
+import AboutSection from "./components/sections/about/AboutSection";
 
 const App: React.FC = () => {
   return (
     <Layout>
-      <div>
-        <h1>오 이거 뭐냐</h1>
-      </div>
+      <AboutSection />
     </Layout>
   );
 };
